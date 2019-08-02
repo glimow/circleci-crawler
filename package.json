@@ -1,0 +1,18 @@
+{
+  "name": "circleci-crawler",
+  "version": "1.0.0",
+  "description": "CircleCI API crawling script for data science purposes",
+  "main": "circleci.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tristan Kalos <tristan.kalos@live.fr>",
+  "license": "ISC",
+  "dependencies": {
+    "await-timeout": "^0.6.0",
+    "axios": "^0.19.0",
+    "fast-csv": "^3.4.0",
+    "jsonfile": "^5.0.0",
+    "mongodb": "^3.3.0-beta2"
+  }
+}
